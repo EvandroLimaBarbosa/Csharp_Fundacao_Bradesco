@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main()
+        static void OperadoresUnarios()
         {
             var X = false;
             var n1 = 6;
