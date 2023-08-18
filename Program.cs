@@ -1,10 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace OlaMundo
+namespace Salario
 {
     class Program
     {
-         static void Main()
+         static void Salario()
         {
             var idade = 25;
             var salario = 1285.76;
