@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main()
+        static void OperadoresRelacionais()
         {
             /* double nota1 = 8.0;
              double nota2 = 9.0;
