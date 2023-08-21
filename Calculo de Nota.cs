@@ -2,7 +2,7 @@
 {
     class Program
     {
-        static void Main()
+        static void Calculo_de_Nota()
         {
             while (true) {
                 Console.Clear();
@@ -47,16 +47,16 @@
                 string reiniciar = Console.ReadLine();
                 if (reiniciar.ToLower() == "sim")
                 {
-                    Console.WriteLine("Ok, reiniciando");
+                    Console.WriteLine("Ok, reiniciando\n");
                 }
                  else if (reiniciar.ToLower() == "não")
                 {
-                    Console.WriteLine("Ok, finalizando... obrigado!");
+                    Console.WriteLine("Ok, finalizando... obrigado!\n");
                     break;
                 }
                 else 
                 {
-                    Console.WriteLine("Não entendi, vou finalizar! obrigado!");
+                    Console.WriteLine("Não entendi, vou finalizar! obrigado!\n");
                     break;
                 }
             }
